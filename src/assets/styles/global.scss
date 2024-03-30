@@ -1,0 +1,41 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+    font-family: "Urbanist", sans-serif;
+}
+
+h2{
+    font-size: 3.125rem;
+}
+
+h3{
+    font-size: 2.125rem;
+}
+
+h2, h3{
+    font-weight: 700;
+}
+
+#root{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+*:focus {
+    outline: none;
+}
+
+.active-menu{
+    color:#F6882A;
+    border-bottom: solid 0.125rem #F6882A; 
+}
+
+.gradient-box{
+    background: linear-gradient(white, white) padding-box,
+              linear-gradient(227.7deg, #9D2887 -15.2%, #F6882A 114.27%) border-box;
+    border-radius: 0.8125rem;
+    border: 0.0625rem solid transparent;
+}
