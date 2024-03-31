@@ -1,13 +1,13 @@
 import { Swiper, SwiperSlide } from "swiper/react"
 import { metodologyData } from "../../../database/metodologyData"
 import { MetodologyCard } from "./MetodologyCard/MetodologyCard"
-import { Autoplay } from "swiper/modules"
+import { Autoplay, Pagination } from "swiper/modules"
 
 export const MetodologySection = () => {
     return(
         <section className="flex flex-col items-center gap-[2.5rem] md:gap-0 relative">
             <img src="/src/assets/img/mainpage/vector1.png" alt="vector-1" className="absolute hidden md:block right-0 top-[8%] z-[-1]"/>
-            <img src="/src/assets/img/mainpage/vector2.png" alt="vector-2" className="absolute hidden md:block left-0 top-[40%] z-[-1]"/>
+            <img src="/src/assets/img/mainpage/vector2.png" alt="vector-2" className="absolute hidden md:block left-0 top-[45%] z-[-1]"/>
             <img src="/src/assets/img/mainpage/vector3.png" alt="vector-3" className="absolute hidden md:block bottom-[-15%] right-0 z-[-1]"/>
 
             <div className="flex flex-col items-center gap-[2.875rem] text-center w-[80%] md:w-[70%]">
@@ -17,7 +17,7 @@ export const MetodologySection = () => {
 
             {window.innerWidth <= 768 ? 
 
-            <Swiper className="w-[90vw] metodologySwiper"
+            <Swiper className="w-[85vw] metodologySwiper"
             loop={true}
             autoplay={{
                 delay: 4000,
@@ -27,8 +27,12 @@ export const MetodologySection = () => {
             slidesPerView={1}
             grabCursor={true}
             spaceBetween={55}
+            pagination={{
+                type: "bullets",
+                enabled: true
+            }}
 
-            modules={[Autoplay]}
+            modules={[Autoplay, Pagination]}
             >
                 {metodologyData.map((item, index) => (
                     <SwiperSlide className="flex flex-col gap-[0.75rem] w-[18.75rem] md:w-[24.1875rem] min-h-max md:min-h-[17.5rem] items-center py-[2.75rem] px-[2.125rem] gradient-box text-center mt-2" key={index}>
@@ -40,7 +44,7 @@ export const MetodologySection = () => {
 
             :
 
-            <div className="flex flex-wrap justify-center w-auto gap-[1.75rem] mt-[4.375rem]">
+            <div className="flex flex-wrap justify-center w-[85%] gap-[1.75rem] mt-[4.375rem]">
                 {metodologyData.map((item, index) => (
                     <MetodologyCard key={index} title={item.title} description={item.description}/>
                 ))}

@@ -12,7 +12,7 @@ export const HomeMain = () => {
                 <BannerSection/>
                 <AboutSection/>
             </div>
-            
+
             <MetodologySection/>
             <TestimonialSection/>
             <ContactSection/>

@@ -39,3 +39,7 @@ h2, h3{
     border-radius: 0.8125rem;
     border: 0.0625rem solid transparent;
 }
+
+div.swiper:nth-child(5) > div:nth-child(2){
+    top: 25px;
+}

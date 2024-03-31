@@ -6,7 +6,7 @@ export const useIsActiveContext = () => {
     return useContext(IsActiveContext)
 }
 
-export const IsActiveProvider = ({children}: {children: React.ReactNode}) => {
+export const IsActiveProvider = ({children}: any) => {
     const [active, setActive] = useState(null)
 
     return(

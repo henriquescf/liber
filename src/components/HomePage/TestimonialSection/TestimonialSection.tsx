@@ -13,7 +13,7 @@ export const TestimonialSection = () => {
             <Swiper className="testimonial__container" 
             loop={true}
             autoplay={{
-                delay: 5000,
+                delay: 4000,
                 pauseOnMouseEnter: true,
                 disableOnInteraction: true
             }}
