@@ -11,7 +11,7 @@ export const MetodologySection = () => {
             <img src="/src/assets/img/mainpage/vector3.png" alt="vector-3" className="absolute hidden md:block bottom-[-15%] right-0 z-[-1]"/>
 
             <div className="flex flex-col items-center gap-[2.875rem] text-center w-[80%] md:w-[70%]">
-                <h2 className="text-[1.75rem] md:text-[3.125rem]">Nossa <span className="border-b-[0.5rem] border-b-[rgba(157,_40,_135,_1)]">Metodologia</span></h2>
+                <h2 className="text-[1.75rem] md:text-[3.125rem]">Nossa <span className="border-b-[0.5rem] border-b-[rgba(157,_40,_135,_1)] pb-2">Metodologia</span></h2>
                 <p className="text-[1.0625rem] md:text-[1.625rem] leading-[2.5rem] text-justify whitespace-break-spaces">A Líber é uma escola de idiomas online que surgiu com o desejo de oferecer às pessoas a liberdade para se comunicar em qualquer lugar que estiver. Considerando o modelo de vida atual, adaptamos o nosso serviço para oferecer a maior comodidade ao aluno.</p>
             </div>
 

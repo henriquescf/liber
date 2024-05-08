@@ -9,7 +9,7 @@ export const TestimonialSection = () => {
   return (
     <>
       <section className="testimonial__section">
-        <h2 className="text-[1.75rem] md:text-[3.125rem] text-center"><span className="border-b-[0.5rem] border-b-[rgba(157,_40,_135,_1)]">Depoimentos</span> dos Estudantes</h2>
+        <h2 className="text-[1.75rem] md:text-[3.125rem] text-center"><span className="border-b-[0.5rem] border-b-[rgba(157,_40,_135,_1)] pb-1 md:pb-2">Depoimentos</span> dos Estudantes</h2>
             <Swiper className="testimonial__container" 
             loop={true}
             autoplay={{

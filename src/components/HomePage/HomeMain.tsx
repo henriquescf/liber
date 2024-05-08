@@ -2,7 +2,9 @@ import { AboutSection } from "./AboutSection/AboutSection"
 import { BannerSection } from "./BannerSection/BannerSection"
 import { ContactSection } from "./ContactSection/ContactSection"
 import { MetodologySection } from "./MetodologySection/MetodologySection"
+import { PricingSection } from "./PricingSection/PricingSection"
 import { QuestionsSection } from "./QuestionsSection/QuestionsSection"
+import { TeamSection } from "./TeamSection/TeamSection"
 import { TestimonialSection } from "./TestimonialSection/TestimonialSection"
 
 export const HomeMain = () => {
@@ -14,6 +16,8 @@ export const HomeMain = () => {
             </div>
 
             <MetodologySection/>
+            <PricingSection/>
+            <TeamSection/>
             <TestimonialSection/>
             <ContactSection/>
             <QuestionsSection/>

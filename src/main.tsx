@@ -2,6 +2,7 @@ import React from 'react'
 import ReactDOM from 'react-dom/client'
 import App from './App.tsx'
 import { BrowserRouter } from 'react-router-dom'
+import "react-toastify/dist/ReactToastify.css";
 import './assets/styles/reset.scss'
 import './assets/styles/global.scss'
 import { IsActiveProvider } from './providers/CheckActiveContext.tsx'

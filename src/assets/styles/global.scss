@@ -6,6 +6,10 @@
     font-family: "Urbanist", sans-serif;
 }
 
+*:focus {
+    outline: none;
+}
+
 h2{
     font-size: 3.125rem;
 }
@@ -24,10 +28,6 @@ h2, h3{
     min-height: 100vh;
 }
 
-*:focus {
-    outline: none;
-}
-
 .active-menu{
     color:#F6882A;
     border-bottom: solid 0.125rem #F6882A; 
@@ -38,8 +38,4 @@ h2, h3{
               linear-gradient(227.7deg, #9D2887 -15.2%, #F6882A 114.27%) border-box;
     border-radius: 0.8125rem;
     border: 0.0625rem solid transparent;
-}
-
-div.swiper:nth-child(5) > div:nth-child(2){
-    top: 25px;
 }

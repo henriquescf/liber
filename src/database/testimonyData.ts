@@ -1,7 +1,5 @@
 import Image1 from "/src/assets/img/mainpage/testimonial1.jpeg";
 import Image2 from "/src/assets/img/mainpage/testimonial2.jpeg";
-import Image3 from "/src/assets/img/mainpage/testimonial3.jpeg";
-import Image4 from "/src/assets/img/mainpage/testimonial4.jpeg";
 
 
 export const testimonyData = [
@@ -15,22 +13,8 @@ export const testimonyData = [
   {
     id: 2,
     image: Image2,
-    title: "Carlos Silva",
+    title: "Camila Villa Bôas",
     description:
-      "Qualificar pessoas através de cursos e capacitação de alta qualidade, desenvolvendo habilidades essenciais para alcançar o sucesso pessoal e profissional.",
-  },
-  {
-    id: 3,
-    image: Image3,
-    title: "Marcos Augusto",
-    description:
-      "Gostaria de deixar um recadinho. As aulas de inglês têm sido uma experiência incrível para mim. Estou aprendendo de forma divertida e interativa, expandindo meu vocabulário e melhorando minha confiança na conversação. Sempre indico a Líber para os meus amigos, eu amo!!! Aproveito para deixar meu agradecimento para a Teacher Tati, sempre muito animada e paciente. ❤️",
-  },
-  {
-    id: 4,
-    image: Image4,
-    title: "Julia Vega",
-    description:
-      "Qualificar pessoas através de cursos e capacitação de alta qualidade, desenvolvendo habilidades essenciais para alcançar o sucesso pessoal e profissional.",
+      "Minha experiência na Liber Idiomas tem sido incrível, além de aprender me divirto muito com as professoras e com as aulas. Apesar de ter iniciado para aprimorar e aprender um novo idioma para fins profissionais, hoje levo as aulas como um momento para mim. Cada dia me sinto mais à vontade para falar em inglês e espanhol. Se isso não fosse o suficiente, a vez que precisei mudar o horário da aula foi super tranquilo, e todos sabemos que flexibilidade é tudo nos tempos de hoje. Recomendo demais!",
   },
 ];
