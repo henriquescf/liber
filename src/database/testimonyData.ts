@@ -15,6 +15,6 @@ export const testimonyData = [
     image: Image2,
     title: "Camila Villa Bôas",
     description:
-      "Minha experiência na Liber Idiomas tem sido incrível, além de aprender me divirto muito com as professoras e com as aulas. Apesar de ter iniciado para aprimorar e aprender um novo idioma para fins profissionais, hoje levo as aulas como um momento para mim. Cada dia me sinto mais à vontade para falar em inglês e espanhol. Se isso não fosse o suficiente, a vez que precisei mudar o horário da aula foi super tranquilo, e todos sabemos que flexibilidade é tudo nos tempos de hoje. Recomendo demais!",
+      "Minha experiência no Instituto Liber tem sido incrível, além de aprender me divirto muito com as professoras e com as aulas. Apesar de ter iniciado para aprimorar e aprender um novo idioma para fins profissionais, hoje levo as aulas como um momento para mim. Cada dia me sinto mais à vontade para falar em inglês e espanhol. Se isso não fosse o suficiente, a vez que precisei mudar o horário da aula foi super tranquilo, e todos sabemos que flexibilidade é tudo nos tempos de hoje. Recomendo demais!",
   },
 ];

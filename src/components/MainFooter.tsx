@@ -31,7 +31,7 @@ export const MainFooter = () => {
                     </nav>
 
                     <nav className="flex flex-col">
-                    <span className="text-[1.6875rem] font-semibold mb-3">Sobre a Liber</span>
+                    <span className="text-[1.6875rem] font-semibold mb-3">Sobre o Instituto Liber</span>
                         <a onClick={() => setClassScheduleModal(true)} className="text-[1.25rem] hover:opacity-80">Aula Experimental</a>
                         <Link reloadDocument to="/materiais-gratuitos" className="text-[1.25rem] hover:opacity-80">Materiais Gratuitos</Link>
                     </nav>

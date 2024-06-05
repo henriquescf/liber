@@ -55,7 +55,7 @@ export const MobileHamburgerMenu = () => {
                             <nav className="flex flex-col *:pl-[0.625rem] *:text-[1.375rem] *:flex *:items-center pt-4 gap-4">
                                 <motion.li initial={{ scale: 0, opacity: 0 }} animate={{ scale: 1, opacity: 1 }} transition={{type: "spring", stiffness: 260, damping: 70, delay: 0.1}} className="w-auto p-[0.08rem] rounded-xl ml-2 gap-3">
                                     <FaHome color="#DD710F"/>
-                                    <Link onClick={() => setOpen((prev: any) => !prev)} to="/" className={active == "mainpage" ? "active-menu" : ""}>A Liber</Link>
+                                    <Link onClick={() => setOpen((prev: any) => !prev)} to="/" className={active == "mainpage" ? "active-menu" : ""}>O Liber</Link>
                                 </motion.li>
 
                                 <motion.li initial={{ scale: 0, opacity: 0 }} animate={{ scale: 1, opacity: 1 }} transition={{type: "spring", stiffness: 260, damping: 70, delay: 0.2}} className="w-auto p-[0.08rem] rounded-xl ml-2 flex items-center gap-3">

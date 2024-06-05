@@ -141,7 +141,7 @@ export const ClassScheduleModal = () => {
                     </div>
 
                     <div className="flex flex-col gap-[0.6875rem]">
-                        <label htmlFor="source-modal" className="md:text-[1.25rem]">E como você chegou até a Liber?</label>
+                        <label htmlFor="source-modal" className="md:text-[1.25rem]">E como você chegou até o Liber?</label>
                         <select id="source-modal" className="w-[80vw] md:w-[29.125rem] h-[3.4375rem] text-black bg-transparent rounded-[0.3125rem] border-[0.125rem] border-[rgba(168,_176,_189,_1)] px-[1.375rem] py-[0.875rem] bg-white" {...register("source")}>
                             <option hidden value={""}>Selecione uma origem</option>
                             <option value={"google"}>Google</option>
