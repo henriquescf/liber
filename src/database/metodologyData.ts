@@ -26,7 +26,7 @@ export const metodologyData = [
 
     {
         title: "Alta Personalização",
-        description: "As aulas serão adaptadas para seus objetivos, buscando resolver as suas principais dificuldades e qualquer outra particularidade, visando a melhor eficiência possível. Módulos curtos para melhor adaptação do curso para as suas necessidades."
+        description: "As aulas serão adaptadas para seus objetivos, buscando resolver as suas principais dificuldades e qualquer outra particularidade, visando a melhor eficiência possível."
     },
     
 ]

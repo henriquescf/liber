@@ -53,7 +53,7 @@ export const PricingSection = () => {
                                     <span>10 horas</span>
                                 </li>
                             </ul>
-                            <a href="https://api.whatsapp.com/send?phone=5581996350832&text=Ol%C3%A1%2C%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es%20sobre%20o%20plano%20intensive." target="_blank" className="border-[1px] border-solid w-1/3 p-2 rounded-full bg-[#f6882a] text-white hover:opacity-90 !mt-auto text-center">Saiba mais</a>
+                            <a href="https://api.whatsapp.com/send?phone=5581996350832&text=Ol%C3%A1%2C%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es%20sobre%20o%20plano%20intensive." target="_blank" className="border-[1px] border-solid md:w-1/3 w-2/3 md:!mt-auto mt-2 p-2 rounded-full bg-[#f6882a] text-white hover:opacity-90 text-center">Saiba mais</a>
                         </div>
                     </div>
                     <div className="flex w-full mb-8 sm:px-4 md:w-1/2 lg:w-1/3 lg:mb-0">
@@ -97,7 +97,7 @@ export const PricingSection = () => {
                                     <span>15 horas</span>
                                 </li>
                             </ul>
-                            <a href="https://api.whatsapp.com/send?phone=5581996350832&text=Ol%C3%A1%2C%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es%20sobre%20o%20plano%20pro." target="_blank" className="border-[1px] border-solid w-1/3 p-2 rounded-full bg-white text-[#f6882a] hover:opacity-90 !mt-auto text-center">Saiba mais</a>
+                            <a href="https://api.whatsapp.com/send?phone=5581996350832&text=Ol%C3%A1%2C%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es%20sobre%20o%20plano%20pro." target="_blank" className="border-[1px] border-solid md:w-1/3 w-2/3 md:!mt-auto mt-2 p-2 rounded-full bg-white text-[#f6882a] hover:opacity-90 text-center">Saiba mais</a>
                         </div>
                     </div>
                     <div className="flex w-full mb-8 sm:px-4 md:w-1/2 lg:w-1/3 lg:mb-0">
@@ -123,7 +123,7 @@ export const PricingSection = () => {
                                     <span>30 horas</span>
                                 </li>
                             </ul>
-                            <a href="https://api.whatsapp.com/send?phone=5581996350832&text=Ol%C3%A1%2C%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es%20sobre%20o%20plano%20prime." target="_blank" className="border-[1px] border-solid w-1/3 p-2 rounded-full bg-[#f6882a] text-white hover:opacity-90 !mt-auto text-center">Saiba mais</a>
+                            <a href="https://api.whatsapp.com/send?phone=5581996350832&text=Ol%C3%A1%2C%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es%20sobre%20o%20plano%20prime." target="_blank" className="border-[1px] border-solid md:w-1/3 w-2/3 md:!mt-auto mt-2 p-2 rounded-full bg-[#f6882a] text-white hover:opacity-90 text-center">Saiba mais</a>
                         </div>
                     </div>
                 </div>
