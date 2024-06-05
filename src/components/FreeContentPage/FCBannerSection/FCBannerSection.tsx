@@ -51,12 +51,12 @@ export const FCBannerSection = () => {
                     <span className="text-[rgba(67,_67,_67,_1)]">{errors.email.message}</span>
                 </div>
                 }
-                <ReCAPTCHA sitekey="6LdESuwpAAAAAHhPKYmE_JeToy3CpA7uUISV_5ng" onChange={(val: any) => setCapVal(val)} className="md:block flex justify-center"></ReCAPTCHA>
+                <ReCAPTCHA sitekey="6LeHtPEpAAAAADbUeacLb2BFSFlfHAsh8JSZKJJs" onChange={(val: any) => setCapVal(val)} className="md:block flex justify-center"></ReCAPTCHA>
                 {!capVal && (
                     <span className="text-sm mt-[-20px] md:block flex justify-center">Por favor, verifique a caixa acima para liberar o envio.</span>
                 )}
             </div>
-            <img src="/src/assets/img/freecontentpage/materiais-gratuitos-banner.png" alt="mg-banner" className="h-[15.9375rem] max-w-[14.6875rem] w-[100%] md:max-w-[24.75rem] md:h-[30.375rem] flex mb-[6.25rem] md:mb-0"/>
+            <img src="/assets/freecontentpage/materiais-gratuitos-banner.png" alt="mg-banner" className="h-[15.9375rem] max-w-[14.6875rem] w-[100%] md:max-w-[24.75rem] md:h-[30.375rem] flex mb-[6.25rem] md:mb-0"/>
         </section>
     )
 }

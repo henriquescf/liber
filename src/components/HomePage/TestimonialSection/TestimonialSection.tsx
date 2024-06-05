@@ -36,9 +36,9 @@ export const TestimonialSection = () => {
               {testimonyData.map(({ id, image, title, description }) => (
                     <SwiperSlide className="testimonial__card" key={id}>
                         <img src={image} className="testimonial_image"/>
-                        <img src="/src/assets/img/mainpage/icons/testimony-quote.svg" className="testimonial_quote relative w-[25%] md:w-auto right-[1.25rem] md:right-0"/>
+                        <img src="/assets/mainpage/icons/testimony-quote.svg" className="testimonial_quote relative w-[25%] md:w-auto right-[1.25rem] md:right-0"/>
                         <h3 className="testimonial__name text-[1.25rem] md:text-[1.75rem]">{title}</h3>
-                        <img src="/src/assets/img/mainpage/icons/5-stars.svg" className="testimonial__stars w-[8rem] md:w-[10rem]"/>
+                        <img src="/assets/mainpage/icons/5-stars.svg" className="testimonial__stars w-[8rem] md:w-[10rem]"/>
                         <p className="testimonial__description text-[0.875rem] md:text-[1.0625rem] text-justify whitespace-break-spaces">{description}</p>
                     </SwiperSlide>
                   ))}

@@ -20,7 +20,7 @@ export const BannerSection = () => {
                         <MdOutlineArrowRightAlt color="white" size={32}/>
                     </button>
                 </div>
-                <img src="/src/assets/img/mainpage/mainpage-banner.png" alt="main-banner" className="w-[100%] md:max-w-[31.25rem] md:h-[30.375rem] flex mb-[6.25rem] md:mb-0"/>
+                <img src="/assets/mainpage/mainpage-banner.png" alt="main-banner" className="w-[100%] md:max-w-[31.25rem] md:h-[30.375rem] flex mb-[6.25rem] md:mb-0"/>
             </section>
         </>
     )

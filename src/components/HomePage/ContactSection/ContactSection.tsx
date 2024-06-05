@@ -27,18 +27,18 @@ export const ContactSection = () => {
             <h2 className="text-center text-[1.75rem] md:text-[3.125rem]">Entre em <span className="border-b-[0.5rem] border-b-[rgba(246,_136,_42,_1)] pb-2">Contato</span></h2>
             <div className="flex justify-center gap-[2.8125rem] flex-wrap">
             {/* Left Side */}
-                <div className="flex flex-col gap-[2.5rem] bg-[url('/src/assets/img/mainpage/contact-bg.png')] h-[40vh] w-[90vw] md:h-[43.75rem] md:w-[31.25rem] bg-no-repeat rounded-[1.875rem] text-white pt-[1.75rem] pl-[2.125rem] md:pt-[3rem] md:pl-[3.375rem]">
+                <div className="flex flex-col gap-[2.5rem] bg-[url('/assets/mainpage/contact-bg.png')] h-[40vh] w-[90vw] md:h-[43.75rem] md:w-[31.25rem] bg-no-repeat rounded-[1.875rem] text-white pt-[1.75rem] pl-[2.125rem] md:pt-[3rem] md:pl-[3.375rem]">
                     <span className="mb-[0.625rem] text-[1.875rem] md:text-[45px]">Nossas Redes</span>
                     <div className="flex gap-[1.25rem] items-center flex-wrap">
-                        <img src="/src/assets/img/footer/icons/whatsapp_icon.svg" alt="whatsapp-icon" className="w-[1.25rem] md:w-[2.5rem]"/>
+                        <img src="/assets/footer/icons/whatsapp_icon.svg" alt="whatsapp-icon" className="w-[1.25rem] md:w-[2.5rem]"/>
                         <span className="text-[1rem] md:text-[1.5625rem]">(81) 99635-0832</span>
                     </div>
                     <div className="flex gap-[1.25rem] items-center flex-wrap">
-                        <img src="/src/assets/img/footer/icons/email_icon.svg" alt="email-icon" className="w-[1.25rem] md:w-[2.5rem]"/>
+                        <img src="/assets/footer/icons/email_icon.svg" alt="email-icon" className="w-[1.25rem] md:w-[2.5rem]"/>
                         <span className="text-[1rem] md:text-[1.5625rem]">contato@liberidiomas.com</span>
                     </div>
                     <div className="flex gap-[1.25rem] items-center flex-wrap">
-                        <img src="/src/assets/img/footer/icons/instagram_icon.svg" alt="instagram-icon" className="w-[1.25rem] md:w-[2.5rem]"/>
+                        <img src="/assets/footer/icons/instagram_icon.svg" alt="instagram-icon" className="w-[1.25rem] md:w-[2.5rem]"/>
                         <span className="text-[1rem] md:text-[1.5625rem]">@liberidiomas</span>
                     </div>
                 </div>

@@ -1,7 +1,7 @@
-import image1 from "./../assets/img/coursespage/english-flag.png"
-import image2 from "./../assets/img/coursespage/spanish-flag.png"
-import image3 from "./../assets/img/coursespage/french-flag.png"
-import image4 from "./../assets/img/coursespage/chinese-flag.png"
+import image1 from "/assets/coursespage/english-flag.png"
+import image2 from "/assets/coursespage/spanish-flag.png"
+import image3 from "/assets/coursespage/french-flag.png"
+import image4 from "/assets/coursespage/chinese-flag.png"
 
 export const coursesData = [
     {

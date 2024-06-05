@@ -6,9 +6,9 @@ import { Autoplay, Pagination } from "swiper/modules"
 export const MetodologySection = () => {
     return(
         <section className="flex flex-col items-center gap-[2.5rem] md:gap-0 relative">
-            <img src="/src/assets/img/mainpage/vector1.png" alt="vector-1" className="absolute hidden md:block right-0 top-[8%] z-[-1]"/>
-            <img src="/src/assets/img/mainpage/vector2.png" alt="vector-2" className="absolute hidden md:block left-0 top-[45%] z-[-1]"/>
-            <img src="/src/assets/img/mainpage/vector3.png" alt="vector-3" className="absolute hidden md:block bottom-[-15%] right-0 z-[-1]"/>
+            <img src="/assets/mainpage/vector1.png" alt="vector-1" className="absolute hidden md:block right-0 top-[8%] z-[-1]"/>
+            <img src="/assets/mainpage/vector2.png" alt="vector-2" className="absolute hidden md:block left-0 top-[45%] z-[-1]"/>
+            <img src="/assets/mainpage/vector3.png" alt="vector-3" className="absolute hidden md:block bottom-[-15%] right-0 z-[-1]"/>
 
             <div className="flex flex-col items-center gap-[2.875rem] text-center w-[80%] md:w-[70%]">
                 <h2 className="text-[1.75rem] md:text-[3.125rem]">Nossa <span className="border-b-[0.5rem] border-b-[rgba(157,_40,_135,_1)] pb-2">Metodologia</span></h2>

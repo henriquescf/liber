@@ -43,7 +43,7 @@ export const MobileHamburgerMenu = () => {
             <div className="md:hidden blur-except flex items-center w-[100%] px-7 mobile-menu">
                 {isOpen && (
                     <div className="flex items-center gap-[0.4375rem]">
-                        <img src="/src/assets/img/header/header-logo.png" className="w-[100%] h-[2rem]" alt="logo"/>
+                        <img src="/assets/header/header-logo.png" className="w-[100%] h-[2rem]" alt="logo"/>
                     </div>
                 )}
 

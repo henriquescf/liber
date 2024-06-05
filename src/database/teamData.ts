@@ -1,7 +1,7 @@
-import image1 from "./../assets/img/mainpage/equipe-tatiane.png"
-import image2 from "./../assets/img/mainpage/equipe-hadassa.png"
-import image3 from "./../assets/img/mainpage/equipe-juliana.png"
-import image4 from "./../assets/img/mainpage/equipe-leticia.png"
+import image1 from "/assets/mainpage/equipe-tatiane.png"
+import image2 from "/assets/mainpage/equipe-hadassa.png"
+import image3 from "/assets/mainpage/equipe-juliana.png"
+import image4 from "/assets/mainpage/equipe-leticia.png"
 
 export const teamData = [
     {

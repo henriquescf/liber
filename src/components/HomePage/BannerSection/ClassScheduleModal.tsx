@@ -65,7 +65,7 @@ export const ClassScheduleModal = () => {
         classScheduleModal &&
         <div role="dialog" className="classScheduleModalOverlay backdrop-blur" onClick={() => setClassScheduleModal(false)}>
             <div className="classScheduleModalBox overflow-auto" id="modal" onClick={e => e.stopPropagation()}>
-                <img onClick={handleCloseModal} src="/src/assets/img/mainpage/icons/closeX.svg" alt="closeIcon" className="absolute top-[2rem] right-[1.625rem] cursor-pointer hover:opacity-[.8] h-[1.125rem] w-[1.125rem] md:h-[1.5rem] md:w-[1.5rem]" />
+                <img onClick={handleCloseModal} src="/assets/mainpage/icons/closeX.svg" alt="closeIcon" className="absolute top-[2rem] right-[1.625rem] cursor-pointer hover:opacity-[.8] h-[1.125rem] w-[1.125rem] md:h-[1.5rem] md:w-[1.5rem]" />
 
                 <div className="flex flex-col gap-[0.3125rem] border-b-solid border-b-[rgba(181,_181,_181,_1)] border-b-[0.0625rem] pb-[1.25rem] md:pb-[1.25rem]">
                     <p className="text-[1.5rem] md:text-[2.125rem] font-semibold"><span className="inline-block bg-clip-text text-transparent bg-[linear-gradient(266.11deg,_#9D2887_32.06%,_#FA7E0D_63.03%)]">Olá</span>, que tal uma aula experimental 100% gratuita?</p>

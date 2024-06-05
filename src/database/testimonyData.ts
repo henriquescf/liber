@@ -1,5 +1,5 @@
-import Image1 from "/src/assets/img/mainpage/testimonial1.jpeg";
-import Image2 from "/src/assets/img/mainpage/testimonial2.jpeg";
+import Image1 from "/assets/mainpage/testimonial1.jpeg";
+import Image2 from "/assets/mainpage/testimonial2.jpeg";
 
 
 export const testimonyData = [
