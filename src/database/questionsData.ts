@@ -16,7 +16,7 @@ export const questionsData = [
 
     {
      question: 'Quais são os horários disponíveis para as aulas?',
-     answer: 'Os horários são acordados entre aluno e escola, sente estes flexíveis a depender da disponibilidade de ambos.'
+     answer: 'Os horários são acordados entre aluno e escola, sendo estes flexíveis a depender da disponibilidade de ambos.'
     },
 
     {
