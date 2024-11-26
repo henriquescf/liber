@@ -1,5 +1,5 @@
 export const classScheduleSheet = async (data: any) => {
-  const sheet_url = "https://script.google.com/macros/s/AKfycbwfev7gLU3HwPjwNjAA9pXTziVNqjzl36CMOVUF2OpGvHgQDbpe5N6JpbTSPlJEaiE/exec"
+  const sheet_url = ""
   
   const formData = new FormData();
   formData.append('Nome', data.name);
