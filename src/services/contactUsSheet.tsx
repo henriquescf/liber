@@ -1,5 +1,5 @@
 export const contactUsSheet = async (data: any) => {
-    const sheet_url = "https://script.google.com/macros/s/AKfycbwy5IghYEqk9icUZUqMOpoIKOHe-ZIovRP7FoGjpeIOQPqcpN33LTx_Owzlv_nN7eJXtg/exec"
+    const sheet_url = ""
     
     const formData = new FormData();
     formData.append('Nome', data.name);
